@@ -1,6 +1,6 @@
 {
   "name": "elf-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Elf, a React based component library for developers; 基于React的桌面组件库",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
