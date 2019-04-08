@@ -1,8 +1,8 @@
 {
-  "vendors.js": "/elf-ui/static/js/vendors.e0162901.js",
-  "app.js": "/elf-ui/static/js/app.50b01bd1.js",
-  "runtime~app.js": "/elf-ui/static/js/runtime~app.be7e5084f1dc18cc5907.js",
-  "src-foo-index.js": "/elf-ui/static/js/src-foo-index.b9edfd6b.js",
-  "static/js/4.280484c9.js": "/elf-ui/static/js/4.280484c9.js",
+  "app.js": "/elf-ui/static/js/app.4d0047f0.js",
+  "runtime~app.js": "/elf-ui/static/js/runtime~app.506f27927f0ce4550f64.js",
+  "src-foo-index.js": "/elf-ui/static/js/src-foo-index.d29da45c.js",
+  "vendors.js": "/elf-ui/static/js/vendors.98ba30ee.js",
+  "static/js/4.4615b4b8.js": "/elf-ui/static/js/4.4615b4b8.js",
   "index.html": "/elf-ui/index.html"
 }
