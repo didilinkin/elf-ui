@@ -1,5 +1,5 @@
-import React, { PureComponent } from 'react'
-import styled from 'styled-components'
+import React, { PureComponent } from 'react';
+import styled from 'styled-components';
 
 type Size = 'large' | 'small'
 interface IProps {

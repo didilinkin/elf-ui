@@ -43,7 +43,9 @@ Elf 是个 很小的工具组件库
   - [x] 与其他 UI组件库的差异
   - [x] 不适用的场景
 - [ ] precommit 配置
-- [ ] lint 配置
+  - [ ] eslint 配置 (替换 tslint)
+  - [ ] 强制检查 lint
+  - [ ] 规范化 commit - Commitizen
 - [ ] CI 配置 - travis
 - [ ] 添加组件
 
