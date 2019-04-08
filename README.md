@@ -1,6 +1,18 @@
 # elf-ui
 Elf, a React based component library for developers; 基于React的桌面组件库
 
+[![npm version](https://img.shields.io/npm/v/elf-ui.svg)](https://www.npmjs.com/package/elf-ui)
+[![build status](https://img.shields.io/travis/didilinkin/elf-ui.svg?style=flat-square)](https://travis-ci.org/didilinkin/elf-ui)
+[![install size](https://badgen.net/packagephobia/install/elf-ui)](https://packagephobia.now.sh/result?p=elf-ui)
+[![languages](https://img.shields.io/github/languages/top/didilinkin/elf-ui.svg)](https://img.shields.io/github/languages/top/didilinkin/elf-ui.svg)
+[![type](https://img.shields.io/npm/types/elf-ui.svg)](https://img.shields.io/npm/types/elf-ui.svg)
+[![dependencies](https://img.shields.io/librariesio/github/didilinkin/elf-ui.svg)](https://img.shields.io/librariesio/github/didilinkin/elf-ui.svg)
+[![branch](https://img.shields.io/github/commit-status/didilinkin/elf-ui/master/12ec7b76291174cd41d9c7e5c297c4b5f835ce6d.svg)](https://img.shields.io/github/commit-status/didilinkin/elf-ui/master/12ec7b76291174cd41d9c7e5c297c4b5f835ce6d.svg)
+[![license](https://img.shields.io/npm/l/elf-ui.svg)](https://img.shields.io/npm/l/elf-ui.svg)
+[![node version](https://img.shields.io/node/v/elf-ui.svg)](https://img.shields.io/node/v/elf-ui.svg)
+
+
+[![stars](https://img.shields.io/github/stars/didilinkin/elf-ui.svg?style=social)](https://img.shields.io/github/stars/didilinkin/elf-ui.svg?style=social)
 
 ## 特点介绍
 * 组件代码全部由 `Typescript` 编写, 支持类型检查
