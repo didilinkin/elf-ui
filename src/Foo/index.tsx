@@ -29,4 +29,4 @@ export default class Foo extends PureComponent<IProps, {}> {
       </Button>
     )
   }
-}
+};
