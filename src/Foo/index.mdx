@@ -2,18 +2,23 @@
 name: Foo
 route: /
 ---
-
-import { Playground } from 'docz';
-import Foo from './';
+import { Playground, PropsTable } from 'docz'
+import Foo from './'
 
 # Foo Component
 
-## Normal Foo
+## API
+<PropsTable of={Foo} />
 
-<Foo>Hi</Foo>
+## Normal
+<Foo> 默认 </Foo>
 
-## Large Foo with playground
-
+## Small
 <Playground>
-    <Foo size="large">Hi</Foo>
+  <Foo size="small"> 小 </Foo>
+</Playground>
+
+## Large
+<Playground>
+  <Foo size="large"> 大 </Foo>
 </Playground>
