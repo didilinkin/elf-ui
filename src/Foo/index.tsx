@@ -1,32 +1,20 @@
-import React, { PureComponent } from 'react'
-import styled from 'styled-components'
+import React from 'react'
 
-type Size = 'large' | 'small'
 interface IProps {
-  size: Size,
+  size: 'large' | 'small',
   children: React.ReactChild,
 }
 
-interface ButtonProps {
-  fontSize: Size
-}
-const Button = styled.button`
-  font-size: ${({ fontSize }: ButtonProps) =>
-    fontSize === 'large'
-      ? '40px'
-      : fontSize === 'small'
-        ? '30px'
-        : '20px'
-  }
-`
-
-export default class Foo extends PureComponent<IProps, {}> {
-  render () {
-    const { size, children } = this.props
-    return (
-      <Button fontSize={size}>
-        {children}
-      </Button>
-    )
-  }
-}
+export default (props: IProps) => (
+  <button
+    style={{
+      fontSize: props.size === 'large'
+        ? 40
+        : props.size === 'small'
+          ? 30
+          : 20,
+    }}
+  >
+    {props.children}
+  </button>
+)
