@@ -70,10 +70,13 @@ yarn install
   - [x] 特点介绍
   - [x] 与其他 UI组件库的差异
   - [x] 不适用的场景
-- [ ] precommit 配置
-  - [ ] eslint 配置 (替换 tslint)
-  - [ ] 强制检查 lint
-  - [ ] 规范化 commit - Commitizen
+- [x] 流程规范化 - git hook配置
+  - [x] husky 功能
+  - [x] lint-staged 功能
+  - [x] eslint 配置 (替换 tslint)
+  - [x] 强制检查 lint
+  - [x] prettier 格式化
+  - [x] 规范化 commit - Commitizen
 - [ ] CI 配置 - travis
 - [ ] 添加组件
 
