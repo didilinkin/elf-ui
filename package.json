@@ -17,6 +17,8 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@types/enzyme": "^3.9.1",
+    "@types/jest": "^24.0.11",
     "@types/react": "^16.8.12",
     "@types/react-dom": "^16.8.3",
     "@types/styled-components": "^4.1.13",
@@ -45,9 +47,7 @@
     "build": "umi-lib build",
     "pub": "yarn run test && yarn publish",
     "test": "umi-test",
-    "precommit": "lint-staged",
-    "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
-    "tslint-check": "tslint-config-prettier-check ./tslint.json",
+    "lint:ts": "cross-env tslint \"src/**/*.ts\" \"src/**/*.tsx\"",
     "format": "prettier --write \"src/**/*.tsx\" \"src/**/*.ts\""
   },
   "config": {
@@ -55,13 +55,11 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "lint-staged": {
-    "*.{ts, tsx}": [
-      "precommit-msg",
-      "npm run tslint-check",
-      "prettier --write",
-      "git add"
-    ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
   },
   "engines": {
     "node": ">=10.0.0"

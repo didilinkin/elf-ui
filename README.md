@@ -22,10 +22,38 @@ Elf 是个 很小的工具组件库
 ## Tips
 本组件库可以配合 其他 UI组件库使用, 如: `AntD`等等
 
+关于提交流程
+```bash
+# 添加更新内容
+git add .
+
+# 编写 commit 说明, 不要使用 `git commit -m "xxx"`
+git cz
+
+# 接下来根据 提示书写更新内容
+```
+
 
 ## 不适用的场景
 * 本组件库只支持 `React`, 其他框架暂不支持
 * 非 `Typescript`编写的项目 (虽然可以支持， 但是很多检查, 提示功能都将失去作用)
+
+
+## 依赖安装 (请使用 `yarn` 安装依赖)
+```bash
+# node -v
+v10.7.0
+
+# yarn -v
+1.10.1
+
+# 环境依赖
+yarn global add conventional-changelog
+yarn global add umi
+
+# 初次安装会比较长时间, 请耐心等候
+yarn install
+```
 
 
 ## TODO
