@@ -1,4 +1,3 @@
-// 类型读取不了
 export default {
   entry: 'src/index.ts',
   esm: 'rollup',

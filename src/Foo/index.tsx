@@ -1,22 +1,23 @@
-import React from 'react'
+import * as React from 'react'
 
-interface IProps {
+export interface IProps {
+  /**
+   * 缺省值: 20px, large: 40px, small: 30px
+   * @default '20px'
+   */
   size: 'large' | 'small',
   children: React.ReactChild,
 }
 
-export default class Foo extends React.PureComponent<IProps, {}> {
-  render () {
-    const { size } = this.props
-    return (
-      <button
-        style={{
-          fontSize:
-            size === 'large' ? 40 : size === 'small' ? 30 : 20,
-        }}
-      >
-        {this.props.children}
-      </button>
-    )
-  }
-}
+const Foo: React.SFC<IProps> = ({ size, children }) => (
+  <button
+    style={{
+      fontSize:
+        size === 'large' ? 40 : size === 'small' ? 30 : 20,
+    }}
+  >
+    {children}
+  </button>
+)
+
+export default Foo
